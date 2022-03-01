@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FeedRecipeApp">
         <activity
+            android:name=".activity2"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
